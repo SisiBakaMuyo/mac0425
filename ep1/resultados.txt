@@ -1,0 +1,235 @@
+Testes:
+
+1) python pacman.py -l tinyMaze -p SearchAgent
+
+Remainder of file ignored
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 10 in 0.0 seconds
+Search nodes expanded: 15
+Pacman emerges victorious! Score: 500
+Average Score: 500.0
+Scores:        500.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+2) python pacman.py -l mediumMaze -p SearchAgent
+
+Remainder of file ignored
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 130 in 0.0 seconds
+Search nodes expanded: 146
+Pacman emerges victorious! Score: 380
+Average Score: 380.0
+Scores:        380.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+3) python pacman.py -l bigMaze -z .5 -p SearchAgent
+
+Remainder of file ignored
+[SearchAgent] using function depthFirstSearch
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 210 in 0.0 seconds
+Search nodes expanded: 390
+Pacman emerges victorious! Score: 300
+Average Score: 300.0
+Scores:        300.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+4) python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+
+Remainder of file ignored
+[SearchAgent] using function bfs
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 68 in 0.0 seconds
+Search nodes expanded: 269
+Pacman emerges victorious! Score: 442
+Average Score: 442.0
+Scores:        442.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+5) python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+
+Remainder of file ignored
+[SearchAgent] using function bfs
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 210 in 0.0 seconds
+Search nodes expanded: 620
+Pacman emerges victorious! Score: 300
+Average Score: 300.0
+Scores:        300.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+6) python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+
+Remainder of file ignored
+[SearchAgent] using function ucs
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 68 in 0.0 seconds
+Search nodes expanded: 269
+Pacman emerges victorious! Score: 442
+Average Score: 442.0
+Scores:        442.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+7) python pacman.py -l mediumDottedMaze -p StayEastSearchAgent
+
+Remainder of file ignored
+Path found with total cost of 1 in 0.0 seconds
+Search nodes expanded: 186
+Pacman emerges victorious! Score: 646
+Average Score: 646.0
+Scores:        646.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+8) python pacman.py -l mediumScaryMaze -p StayWestSearchAgent
+
+Remainder of file ignored
+Path found with total cost of 68719479864 in 0.0 seconds
+Search nodes expanded: 108
+Pacman emerges victorious! Score: 418
+Average Score: 418.0
+Scores:        418.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+9) python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+
+Remainder of file ignored
+[SearchAgent] using function astar and heuristic manhattanHeuristic
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 210 in 0.0 seconds
+Search nodes expanded: 549
+Pacman emerges victorious! Score: 300
+Average Score: 300.0
+Scores:        300.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+
+**Optativo 10 e 11**
+10) python pacman.py -l mediumMaze -p SearchAgent -a fn=iddfs
+
+Remainder of file ignored
+[SearchAgent] using function iddfs
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 68 in 0.0 seconds
+Search nodes expanded: 10063
+Pacman emerges victorious! Score: 442
+Average Score: 442.0
+Scores:        442.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+11) python pacman.py -l bigMaze -p SearchAgent -a fn=iddfs -z .5
+
+Remainder of file ignored
+[SearchAgent] using function iddfs
+[SearchAgent] using problem type PositionSearchProblem
+Path found with total cost of 210 in 0.2 seconds
+Search nodes expanded: 60211
+Pacman emerges victorious! Score: 300
+Average Score: 300.0
+Scores:        300.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+12) python pacman.py -l mediumMaze -p SearchAgent -a fn=lrta,trials=30
+
+Remainder of file ignored
+[SearchAgent] using function lrta and heuristic nullHeuristic with 30 trial(s)
+[SearchAgent] using problem type PositionSearchProblem
+Final H-value of the initial state: 30
+Path found with total cost of 130 in 6.1 seconds
+Search nodes expanded: 7486
+Pacman emerges victorious! Score: 380
+Average Score: 380.0
+Scores:        380.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+13) python pacman.py -l mediumMaze -p SearchAgent -a fn=lrta,heuristic=manhattanHeuristic,trials=30
+
+Remainder of file ignored
+[SearchAgent] using function lrta and heuristic manhattanHeuristic with 30 trial(s)
+[SearchAgent] using problem type PositionSearchProblem
+Final H-value of the initial state: 66
+Path found with total cost of 68 in 5.9 seconds
+Search nodes expanded: 5168
+Pacman emerges victorious! Score: 442
+Average Score: 442.0
+Scores:        442.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+14) python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+
+Remainder of file ignored
+[SearchAgent] using function bfs
+[SearchAgent] using problem type CornersProblem
+Path found with total cost of 28 in 0.0 seconds
+Search nodes expanded: 435
+Pacman emerges victorious! Score: 512
+Average Score: 512.0
+Scores:        512.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+15) python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+
+Remainder of file ignored
+[SearchAgent] using function bfs
+[SearchAgent] using problem type CornersProblem
+Path found with total cost of 106 in 0.0 seconds
+Search nodes expanded: 2448
+Pacman emerges victorious! Score: 434
+Average Score: 434.0
+Scores:        434.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+16) python pacman.py -l bigCorners -z 0.5 -p SearchAgent -a fn=bfs,prob=CornersProblem
+
+Remainder of file ignored
+[SearchAgent] using function bfs
+[SearchAgent] using problem type CornersProblem
+Path found with total cost of 162 in 0.0 seconds
+Search nodes expanded: 9904
+Pacman emerges victorious! Score: 378
+Average Score: 378.0
+Scores:        378.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+17) python pacman.py -l mediumCorners -p AStarCornersAgent
+
+Remainder of file ignored
+Path found with total cost of 106 in 0.0 seconds
+Search nodes expanded: 901
+Pacman emerges victorious! Score: 434
+Average Score: 434.0
+Scores:        434.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+18) python pacman.py -l tinyCorners -p LRTAStarCornersAgent -a trials=80
+
+Remainder of file ignored
+Final H-value of the initial state: 28
+Path found with total cost of 42 in 0.0 seconds
+Search nodes expanded: 4117
+Pacman emerges victorious! Score: 498
+Average Score: 498.0
+Scores:        498.0
+Win Rate:      1/1 (1.00)
+Record:        Win
+
+
+
