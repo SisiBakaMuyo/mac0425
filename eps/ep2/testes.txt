@@ -1,0 +1,321 @@
+Testes:
+
+1) H-Minimax:
+
+***Sem função de avaliação 
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=1 -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=1 -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=1 -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=1 -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=3 -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=3 -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=3 -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+
+
+***Com função de avaliação
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=1,evalFn=better -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3,evalFn=better -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l openClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l mediumClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p MinimaxAgent -l trappedClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+
+
+
+
+2) H-Minimax com Alpha-Beta Pruning:
+
+***Sem função de avaliação 
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=1 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=1 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=1 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=1 -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=3 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=3 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=3 -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+
+
+***Com função de avaliação
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=1,evalFn=better -q -n 3
+
+bb) profundidade 3 
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3,evalFn=better -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p AlphaBetaAgent -l minimaxClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l openClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l mediumClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+
+
+
+
+
+3) Expectimax com profundidade limitada:
+
+***Sem função de avaliação 
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=1 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=1 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=1 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=1 -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=3 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=3 -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=1 -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -g DirectionalGhost -q -n 3
+
+
+
+***Com função de avaliação
+
+a)fantasma aleatório
+
+aa) Profundidade 1
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=1,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=1,evalFn=better -q -n 3
+
+bb) profundidade 3 
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=3,evalFn=better -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3,evalFn=better -q -n 3
+
+
+b) fantasma adversarial 
+
+aa) Profundidade 1
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=1,evalFn=better -g DirectionalGhost -q -n 3
+
+bb) profundidade 3
+
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l openClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l mediumClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3,evalFn=better -g DirectionalGhost -q -n 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

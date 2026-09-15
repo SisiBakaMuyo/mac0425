@@ -1,0 +1,101 @@
+Algoritmo,Layout de Teste,Tipo de Fantasma,Função de Avaliação,Profundidade,Média de Score
+H-Minimax,minimaxClassic,padrão,padrão,1,513
+H-Minimax,openClassic,padrão,padrão,1,não termina
+H-Minimax,mediumClassic,padrão,padrão,1,-448
+H-Minimax,trappedClassic,padrão,padrão,1,-158
+H-Minimax,minimaxClassic,adversarial,padrão,1,-493
+H-Minimax,openClassic,adversarial,padrão,1,não termina
+H-Minimax,mediumClassic,adversarial,padrão,1,73
+H-Minimax,trappedClassic,adversarial,padrão,1,-503
+H-Minimax,minimaxClassic,padrão,better,1,-493
+H-Minimax,openClassic,padrão,better,1,1250
+H-Minimax,mediumClassic,padrão,better,1,1665
+H-Minimax,trappedClassic,padrão,better,1,187
+H-Minimax,minimaxClassic,adversarial,better,1,-496
+H-Minimax,openClassic,adversarial,better,1,1263
+H-Minimax,mediumClassic,adversarial,better,1,475
+H-Minimax,trappedClassic,adversarial,better,1,-503
+H-Minimax,minimaxClassic,padrão,padrão,3,-159
+H-Minimax,openClassic,padrão,padrão,3,não termina
+H-Minimax,mediumClassic,padrão,padrão,3,680
+H-Minimax,trappedClassic,padrão,padrão,3,-501
+H-Minimax,minimaxClassic,adversarial,padrão,3,-159
+H-Minimax,openClassic,adversarial,padrão,3,1185
+H-Minimax,mediumClassic,adversarial,padrão,3,966
+H-Minimax,trappedClassic,adversarial,padrão,3,-501
+H-Minimax,minimaxClassic,padrão,better,3,-158
+H-Minimax,openClassic,padrão,better,3,1224
+H-Minimax,mediumClassic,padrão,better,3,1963
+H-Minimax,trappedClassic,padrão,better,3,-501
+H-Minimax,minimaxClassic,adversarial,better,3,-158
+H-Minimax,openClassic,adversarial,better,3,1260
+H-Minimax,mediumClassic,adversarial,better,3,1439
+H-Minimax,trappedClassic,adversarial,better,3,-501
+,,,,,
+,,,,,
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,padrão,padrão,1,-158
+H-Minimax com Alpha-Beta Pruning,openClassic,padrão,padrão,1,não termina
+H-Minimax com Alpha-Beta Pruning,mediumClassic,padrão,padrão,1,-587
+H-Minimax com Alpha-Beta Pruning,trappedClassic,padrão,padrão,1,186
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,adversarial,padrão,1,-495
+H-Minimax com Alpha-Beta Pruning,openClassic,adversarial,padrão,1,não termina
+H-Minimax com Alpha-Beta Pruning,mediumClassic,adversarial,padrão,1,99
+H-Minimax com Alpha-Beta Pruning,trappedClassic,adversarial,padrão,1,-503
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,padrão,better,1,-495
+H-Minimax com Alpha-Beta Pruning,openClassic,padrão,better,1,1242
+H-Minimax com Alpha-Beta Pruning,mediumClassic,padrão,better,1,1193
+H-Minimax com Alpha-Beta Pruning,trappedClassic,padrão,better,1,-503
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,adversarial,better,1,-159
+H-Minimax com Alpha-Beta Pruning,openClassic,adversarial,better,1,1279
+H-Minimax com Alpha-Beta Pruning,mediumClassic,adversarial,better,1,164
+H-Minimax com Alpha-Beta Pruning,trappedClassic,adversarial,better,1,-503
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,padrão,padrão,3,-494
+H-Minimax com Alpha-Beta Pruning,openClassic,padrão,padrão,3,não termina
+H-Minimax com Alpha-Beta Pruning,mediumClassic,padrão,padrão,3,-606
+H-Minimax com Alpha-Beta Pruning,trappedClassic,padrão,padrão,3,-501
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,adversarial,padrão,3,176
+H-Minimax com Alpha-Beta Pruning,openClassic,adversarial,padrão,3,1183
+H-Minimax com Alpha-Beta Pruning,mediumClassic,adversarial,padrão,3,1250
+H-Minimax com Alpha-Beta Pruning,trappedClassic,adversarial,padrão,3,-501
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,padrão,better,3,-159
+H-Minimax com Alpha-Beta Pruning,openClassic,padrão,better,3,1287
+H-Minimax com Alpha-Beta Pruning,mediumClassic,padrão,better,3,1606
+H-Minimax com Alpha-Beta Pruning,trappedClassic,padrão,better,3,-501
+H-Minimax com Alpha-Beta Pruning,minimaxClassic,adversarial,better,3,-160
+H-Minimax com Alpha-Beta Pruning,openClassic,adversarial,better,3,1339
+H-Minimax com Alpha-Beta Pruning,mediumClassic,adversarial,better,3,462
+H-Minimax com Alpha-Beta Pruning,trappedClassic,adversarial,better,3,-501
+,,,,,
+,,,,,
+Expectimax com profundidade limitada,minimaxClassic,padrão,padrão,1,514
+Expectimax com profundidade limitada,openClassic,padrão,padrão,1,não termina
+Expectimax com profundidade limitada,mediumClassic,padrão,padrão,1,-842
+Expectimax com profundidade limitada,trappedClassic,padrão,padrão,1,186
+Expectimax com profundidade limitada,minimaxClassic,adversarial,padrão,1,-156
+Expectimax com profundidade limitada,openClassic,adversarial,padrão,1,não termina
+Expectimax com profundidade limitada,mediumClassic,adversarial,padrão,1,155
+Expectimax com profundidade limitada,trappedClassic,adversarial,padrão,1,-503
+Expectimax com profundidade limitada,minimaxClassic,padrão,better,1,-160
+Expectimax com profundidade limitada,openClassic,padrão,better,1,1251
+Expectimax com profundidade limitada,mediumClassic,padrão,better,1,1766
+Expectimax com profundidade limitada,trappedClassic,padrão,better,1,532
+Expectimax com profundidade limitada,minimaxClassic,adversarial,better,1,-161
+Expectimax com profundidade limitada,openClassic,adversarial,better,1,875
+Expectimax com profundidade limitada,mediumClassic,adversarial,better,1,796
+Expectimax com profundidade limitada,trappedClassic,adversarial,better,1,-503
+Expectimax com profundidade limitada,minimaxClassic,padrão,padrão,3,176
+Expectimax com profundidade limitada,openClassic,padrão,padrão,3,não termina
+Expectimax com profundidade limitada,mediumClassic,padrão,padrão,3,-1500
+Expectimax com profundidade limitada,trappedClassic,padrão,padrão,3,-157
+Expectimax com profundidade limitada,minimaxClassic,adversarial,padrão,3,-161
+Expectimax com profundidade limitada,openClassic,adversarial,padrão,3,1227
+Expectimax com profundidade limitada,mediumClassic,adversarial,padrão,3,276
+Expectimax com profundidade limitada,trappedClassic,adversarial,padrão,3,-502
+Expectimax com profundidade limitada,minimaxClassic,padrão,better,3,176
+Expectimax com profundidade limitada,openClassic,padrão,better,3,1242
+Expectimax com profundidade limitada,mediumClassic,padrão,better,3,1980
+Expectimax com profundidade limitada,trappedClassic,padrão,better,3,-502
+Expectimax com profundidade limitada,minimaxClassic,adversarial,better,3,176
+Expectimax com profundidade limitada,openClassic,adversarial,better,3,1406
+Expectimax com profundidade limitada,mediumClassic,adversarial,better,3,1232
+Expectimax com profundidade limitada,trappedClassic,adversarial,better,3,-502
